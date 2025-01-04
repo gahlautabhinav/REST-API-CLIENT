@@ -12,6 +12,4 @@
 
 **MENTOR NAME**: NEELA SANTHOSH
 
-#**REST API CLIENT: The Weather Application**
-
-
+**#REST API CLIENT: The Weather Application**
