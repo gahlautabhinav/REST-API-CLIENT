@@ -46,7 +46,7 @@ The repository is organized into several Java packages, each containing classes 
    - Maven build tool
 
 2. **Clone the repo**:
-   - git clone https://github.com/gahlautabhinav/REST-API-CLIENT
+   - git clone https://github.com/gahlautabhinav/REST-API-CLIENT.git
 
 3. **Navigate to the project directory**:
    - cd restapi
