@@ -36,4 +36,19 @@ This repository provides a Spring Boot application that functions as a REST API 
 **CODE STRUCTURE:**
 The repository is organized into several Java packages, each containing classes with specific functionalities:
 - **com.restapi.restapi**: This package contains the main application class (WeatherApiClientApplication) that serves as the entry point for the Spring Boot application.
-- **com.restapi.restapi.model**: 
+- **com.restapi.restapi.model**: This package houses the model classes (WeatherResponse, Main, Weather, and Wind) that represent the weather data structure.
+- **com.restapi.restapi.service**: This package contains the WeatherService class reponsible for fetching weather data from the OpenWeatherMap API.
+- **com.restapi.restapi.controller**: This package houses the WeatherController class that handles API requests and constructs the weather information reponse.
+
+**USAGE:**
+1. **Prerequisites**:
+   - JDK (Java Development Kit)
+   - Maven build tool
+
+2. **Clone the repo**:
+   git clone https://github.com/gahlautabhinav/REST-API-CLIENT
+
+3. **Navigate to the project directory**:
+   cd restapi
+
+4. **Add your own OpenWeatherMap API key**:
