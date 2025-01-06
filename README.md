@@ -58,3 +58,4 @@ The repository is organized into several Java packages, each containing classes 
    - Open "How-to-run.txt" text file and run the first two lines in the command line and the last line in the web browser after running the application successfully.
 
 # **OUTPUT**
+![image](https://github.com/user-attachments/assets/04d9a3ac-fb03-4643-9f81-fcaf4c6c47a9)
