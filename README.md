@@ -56,3 +56,5 @@ The repository is organized into several Java packages, each containing classes 
 
 5. **Run the application**:
    - Open "How-to-run.txt" text file and run the first two lines in the command line and the last line in the web browser after running the application successfully.
+
+# **OUTPUT**
