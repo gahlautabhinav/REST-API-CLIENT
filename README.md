@@ -46,13 +46,13 @@ The repository is organized into several Java packages, each containing classes 
    - Maven build tool
 
 2. **Clone the repo**:
-      git clone https://github.com/gahlautabhinav/REST-API-CLIENT
+   - git clone https://github.com/gahlautabhinav/REST-API-CLIENT
 
 3. **Navigate to the project directory**:
-      cd restapi
+   - cd restapi
 
 4. **Add your own OpenWeatherMap API key**:
-      Make changes in the "application.properties" file located in the resources directory. Add your own OpenWeatherMap API Key.
+   - Make changes in the "application.properties" file located in the resources directory. Add your own OpenWeatherMap API Key.
 
 5. **Run the application**:
-      Open "How-to-run.txt" text file and run the first two lines in the command line and the last line in the web browser after running the application successfully.
+   - Open "How-to-run.txt" text file and run the first two lines in the command line and the last line in the web browser after running the application successfully.
