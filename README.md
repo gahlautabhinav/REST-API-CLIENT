@@ -20,11 +20,6 @@ This repository provides a Spring Boot application that functions as a REST API 
 - restapi folder (Containing the project)
 - How-to-run.txt (Text file having information on how to execute the application)
 
-**TOOLS/TECH. USED:**
-- Java
-- Spring Boot
-- OpenWeatherMap API
-
 **KEY FEATURES:**
 - **REST API**: The application exposes a REST API endpoint (/weather/temperature) that accepts an optional city name as a query parameter. If no city is specified, the API defaults to retrieving weather data for Ahmedabad, India.
 - **Spring Boot**: The application is built using Spring Boot, a popular framework for rapid application development in Java. Spring Boot simplifies configuration management and enables quick application startup.
@@ -40,7 +35,12 @@ The repository is organized into several Java packages, each containing classes 
 - **com.restapi.restapi.service**: This package contains the WeatherService class reponsible for fetching weather data from the OpenWeatherMap API.
 - **com.restapi.restapi.controller**: This package houses the WeatherController class that handles API requests and constructs the weather information reponse.
 
-**USAGE:**
+**TOOLS/TECH. USED:**
+- Java
+- Spring Boot
+- OpenWeatherMap API
+
+**INSTALLATION AND USAGE:**
 1. **Prerequisites**:
    - JDK (Java Development Kit)
    - Maven build tool
