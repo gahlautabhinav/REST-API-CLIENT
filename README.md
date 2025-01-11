@@ -16,7 +16,7 @@
 
 This repository provides a Spring Boot application that functions as a REST API for retrieving weather information. The API leverages the OpenWeatherMap API to fetch weather data for a specified city. Users can interact with the API through an endpoint to obtain the current temperature, weather description, humidity, and wind speed.
 
-**FILES PROVIDED IN REPO:**
+**FILES PROVIDED IN THE REPO:**
 - restapi folder (Containing the project)
 - How-to-run.txt (Text file having information on how to execute the application)
 
