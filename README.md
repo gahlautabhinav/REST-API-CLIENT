@@ -38,7 +38,9 @@ The repository is organized into several Java packages, each containing classes 
 **TOOLS/TECH. USED:**
 - **Java**: The primary programming language used to develop the application, enabling object-oriented programming and robust application structure.
 - **Spring Boot**: A framework that simplifies the setup and development of Java applications, providing built-in features such as dependency injection, RESTful API support, and easy configuration management, which are essential for building the Weather API.
-- OpenWeatherMap API
+- **OpenWeatherMap API**: A third-party web service that provides real-time weather data. The application integrates this API to fetch current weather information based on user-specified or default city names.
+- **Jackson**: A library used for converting JSON data from the OpenWeatherMap API into Java objects, enabling easy manipulation and access to weather data within the application.
+- **Spring Web**: A module of the Spring framework that provides features for building web applications, including RESTful services, which is utilized in the WeatherController to handle HTTP requests
 
 **INSTALLATION AND USAGE:**
 1. **Prerequisites**:
