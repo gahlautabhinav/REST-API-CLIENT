@@ -36,8 +36,8 @@ The repository is organized into several Java packages, each containing classes 
 - **com.restapi.restapi.controller**: This package houses the WeatherController class that handles API requests and constructs the weather information reponse.
 
 **TOOLS/TECH. USED:**
-- Java
-- Spring Boot
+- **Java**: The primary programming language used to develop the application, enabling object-oriented programming and robust application structure.
+- **Spring Boot**: A framework that simplifies the setup and development of Java applications, providing built-in features such as dependency injection, RESTful API support, and easy configuration management, which are essential for building the Weather API.
 - OpenWeatherMap API
 
 **INSTALLATION AND USAGE:**
