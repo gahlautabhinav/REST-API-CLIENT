@@ -22,10 +22,15 @@ This repository provides a Spring Boot application that functions as a REST API 
 
 **KEY FEATURES:**
 - **REST API**: The application exposes a REST API endpoint `(/weather/temperature)` that accepts an optional city name as a query parameter. If no city is specified, the API defaults to retrieving weather data for Ahmedabad, India.
+
 - **Spring Boot**: The application is built using Spring Boot, a popular framework for rapid application development in Java. Spring Boot simplifies configuration management and enables quick application startup.
+
 - **OpenWeatherMap Integration**: The application utilizes the OpenWeatherMap API, a free service that provides weather data for various locations worldwide.
+
 - **Model Classes**: The code defines model classes to represent the structure of the weather data recieved from the OpenWeatherMap API. These classes include `WeatherResponse`, `Main`, `Weather`, `Wind`.
+
 - **Weather Service**: The `WeatherService` class is responsible for interacting with the OpenWeatherMap API. It constructs the API request URL using for the provided city nameand retrieves the weather data in JSON format.
+
 - **Weather Controller**: The `WeatherController` class handles incoming API requests. it retrieves the city name from the query parameter and delegates the wweather data retrieval task to the `WeatherService`. Upon successful retrieval, the controller parses the weather data and constructs a human-readable response containing the current temperature, weather description, humidity, and wind speed.
 
 **CODE STRUCTURE:**
